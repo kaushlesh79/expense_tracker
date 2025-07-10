@@ -1,0 +1,12 @@
+/ mai chahta hu total expense colour na ho bus amount ya likhne wali chiz colour ho 
+// <h3 style ={{color : total > 10000 ? "green" : total > 3000 ? "red" : "black" ,}}>Total Expense :{total > 10000 ? `Bhai abhi to majduri krna pdega ₹${total} ` : `₹${total}` }</h3>
+
+// rerender effect 
+
+✅ Re-render hone ka effect:
+Input box empty ho jata hai (value={item.name} aur item.price)
+
+List me naya item add ho chuka hota hai (itemlist.map() re-evaluate hota hai)
+
+Total expense update ho jata hai (kyunki itemlist.reduce() again chalti hai)
+
